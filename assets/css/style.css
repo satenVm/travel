@@ -1,0 +1,488 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.Travel-Tours::after{
+    content: "";
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.26);
+}
+.Travel-Tours{
+    width:100%;
+    background-image:url(../img/hero_1.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    padding-top:70px;
+    padding-bottom:242px;
+    position: relative;
+}
+.Hepta{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:28px;
+    margin-bottom:130px;
+    position: relative;
+    z-index: 1;
+}
+.menu{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu span{
+    height:5px;
+    width:100%;
+    background-color:white;
+    display: inline-block;
+}
+.menu:hover .two{
+    display:none;
+}
+.menu:hover .one{
+    transition-duration:1s;
+    transform: rotate(45deg);
+    margin-bottom: -5px;
+}
+.menu:hover .three{
+    transition-duration:1s;
+    transform: rotate(130deg);
+}
+.menu:hover{
+    justify-content: center;
+}
+.travel{
+    width:50%;
+    padding:20px;
+    text-align:  center;
+    margin: auto;
+    position: relative;
+    z-index:1;
+}
+
+ .travel h1{
+    color: white;
+    font-size:75px;
+}
+.travel span{
+    color: white;
+    font-size:30px;
+}
+.travel button{
+    padding:20px 35px 20px 35px;
+    border-radius: 5px;
+    border:1px solid white;
+    color: white;
+    background-color: transparent;
+    margin-top:50px;
+    font-size:15px;
+    overflow: hidden;
+}
+.travel button:hover{
+    border: none;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    /* animation-duration:2s; */
+}
+.container{
+    max-width:1440px;
+    width:100%;
+    margin:0 auto;
+    /* padding:130px 200px 100px 200px; */
+    padding:130px 150px;
+}
+.website .container{
+    display: flex;
+}
+.pic1{
+    width:50%;
+}
+.pic1 img{
+    width:100%;
+}
+.welcome_website{
+    width:60%;
+    padding:150px 30px 20px 51px;
+}
+.welcome_website h3{
+    font-size:35px;
+    margin-bottom:20px;
+    
+}   
+.welcome_website p{
+    font-family: 'Montserrat', sans-serif;
+    line-height:2;
+}
+.experience{
+    width:100%;
+    background-color: #FAFAFA;
+}
+.once_experience{
+    width:67%;
+    text-align: center;
+    margin:auto;
+}
+.once_experience h3{
+    font-size:40px;
+    margin:10px;
+    
+}
+.once_experience span{
+    font-size:20px;
+    font-family: 'Mulish', sans-serif;
+    line-height:1.5;
+    color:#6C757D;
+}
+.card_tr{
+    width:100%;
+    margin:10px;
+    margin-top:70px;
+    /* display: flex; */
+}
+.card_tr div{
+    width:32%;
+    padding:10px;
+    text-align:  center;
+    display: inline-block;
+}
+.card_tr div img{
+    width:80px;
+    height:80px;
+    margin:20px;
+}
+.card_tr div h1{
+    font-size:30px;
+    margin-bottom:10px;
+}
+.card_tr div span{
+    font-size:17px;
+    color:#6C757D;
+    line-height:1.5;
+}
+.International_Tour{
+    width:100%;
+}
+.Management{
+    width:70%;
+    text-align: center;
+    margin: auto;
+}
+.Management h1{
+    font-size:70px;
+    margin-bottom:20px;
+}
+.Management span{
+    font-size:20px;
+    color: #6C757D;
+    line-height: 1.5;
+}
+.places{
+    width:85%;
+    margin: auto;
+    padding-left:250px;
+    position:absolute;
+    z-index:1;
+}
+.Recent_Blog{
+    width:100%;
+    margin-top:900px;
+    /* background-color: #65C0BA; */
+}
+.Blog_Post{
+    width:70%;
+    margin:auto;
+    text-align: center;
+    margin-bottom:70px;
+}
+.Blog_Post h1{
+    font-size:70px;
+    margin-bottom:20px;
+}
+.Blog_Post span{
+    font-size:20px;
+    color: #6C757D;
+    line-height: 1.5;
+}
+.positions {
+    background-color: #63BDB7;
+    clip-path: polygon(0 36%, 100% 18%, 100% 100%, 0% 100%);
+    position:relative;
+}
+.recent_card{
+    width: 100%;
+    display:flex;
+}
+.card1{
+    width:30%;
+    background-color: white;
+    margin-right:40px;
+}
+.card1 img{
+    width:100%;
+    height:30vh;
+    margin-bottom:40px;
+}
+.card1 span{
+    color:#6C757D;
+    font-family: 'Mulish', sans-serif;
+    font-size:17px;
+}
+.card1 h3{
+    font-size:30px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.card1 p{
+    font-size:17px;
+    color:#6C757D;
+    line-height:1.5;
+}
+.card_img{
+    width:100%;
+}
+.card_info{
+    padding:15px;
+}
+.happy_customers{
+    width: 100%;
+    background-color: #FAFAFA;
+}
+.happy_customers h1{
+    font-size:70px;
+    text-align: center;
+    margin-bottom:100px;
+}
+.peoples{
+    width:30%;
+    display: inline-block;
+    margin-right:32px;
+}
+.photo{
+    width:20%;
+    margin-bottom:10px;
+}
+.photo img{
+    width:100%;
+    border-radius:50px;
+}
+.peoples span{
+    font-size:20px;
+}
+.Top_Destination{
+    width:100%;
+}
+.top_info{
+    width:63%;
+    margin: auto;
+}
+.Top_Destination h1{
+    font-size:30px;
+    text-align: center;
+    margin-bottom:20px;
+}
+.top_info p{
+    font-size:20px;
+    color:#6C757D;
+    line-height:1.5;
+    text-align: center;
+}
+.top_img{
+    width:100%;
+    display:flex;
+    margin-top:50px;
+}
+.top_img img{
+    width:88%;
+    display: inline-block;
+    /* box-shadow:0 4px 8px 0 black; */
+}
+.top_img span{
+    font-size:25px;
+}
+.top_img div{
+    width:30%;
+}
+footer{
+    background-color:#1A1A1A; 
+    display: flex;
+
+}
+footer li{
+    color:white;
+    list-style-type: none;
+}
+footer h3{
+    color: white;
+}
+.Quick{
+    display: inline-block;
+    display: flex;
+}
+.Quick div{
+    margin-right:100px;
+    line-height:2;
+}
+/* hotel */
+.our_hotel{
+    width:100%;
+    padding:50px 20px 150px 20px;
+    background-image:url(../img/slider-4.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.our_hotel::after{
+    content: "";
+    width:100%;
+    height:70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.26);
+}
+.hotel{
+    width:50%;
+    padding:20px;
+    text-align:  center;
+    margin: auto;
+    position:relative;
+    z-index: 1;
+}
+.hotel h1{
+    color: white;
+    font-size:75px;
+}
+.hotel span{
+    color: white;
+    font-size:30px;
+}
+.Family_Room{
+    display: flex;
+}
+.Family_Room img{
+    /* width:550px; */
+    width:50%;
+    height:600px;
+}
+.room_info{
+    width:35%;
+    margin-left:100px;
+    padding-top:100px;
+}
+.room_info h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+.room_info p{
+    color:#6C757D;
+    line-height: 1.5;
+    font-size:20px;
+    margin-bottom:40px;
+}
+.room_info button{
+    padding:15px 30px;
+    border:1px solid #63BDB7;
+    background-color: white;
+    border-radius:5px;
+}
+.Presidential_info{
+    width:35%;
+    margin-right:100px;
+    margin-left:100px;
+    padding-top:100px;
+}
+.Presidential_info h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+.Presidential_info p{
+    color:#6C757D;
+    line-height: 1.5;
+    font-size:20px;
+    margin-bottom:40px;
+}
+.Presidential_info button{
+    padding:15px 30px;
+    border:1px solid #63BDB7;
+    background-color: white;
+    border-radius:5px;
+}
+.Hotel_Gallery{
+    width:100%;
+}
+.Gallery{
+    width:60%;
+    text-align: center;
+    margin:0 auto;
+}
+.Gallery h1{
+    font-size: 50px;
+    margin-bottom:20px;
+}
+.Gallery p{
+    font-size:20px;
+    color: #6C757D;
+    text-align: center;
+}
+.More_Hotel_Features{
+    width: 100%;
+    background-color:#E9ECEF;
+    clip-path: inset(19% 0 0 0);
+    position:relative;
+    margin-top:400px;
+    padding-top:500px;
+}
+.places2{
+    width:85%;
+    margin: auto;
+    padding-left:70px;
+    position:absolute;
+    z-index:1;
+}
+.More_Features{
+    width:70%;
+    text-align: center;
+    margin:0 auto;
+}
+.More_Features h1{
+    font-size:80px;
+    margin-bottom:20px;
+}
+.More_Features p{
+    font-size:20px;
+    color: #6C757D;
+    text-align: center;
+    line-height:1.5;
+}
+.Features_card .card1 img{
+    width:100%;
+    height:30vh;
+    margin-bottom:10px;
+}
+.Features_card  .card1{
+    width:33%;
+    background-color: white;
+    margin-right:40px;
+}
+.Features_card .card_info h3{
+    margin:0 20px;
+}
+.Features_card{
+    /* width: 100%; */
+    /* display: flex; */
+    display: inline-block;
+}
+
+
+
